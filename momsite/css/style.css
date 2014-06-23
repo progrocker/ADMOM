@@ -591,7 +591,14 @@
 	{
 		
 	}
-
+	#owl-example img{
+	width: 150px;
+	}
+	#owl-example p{
+	width: 150px;
+	text-align:center;
+	font-size:15px;
+	}
 	
 /*********************************************************************************/
 /* Portfolio                                                                     */
