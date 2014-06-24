@@ -53,6 +53,7 @@
 
 	.container
 	{
+		padding-top:20px;
 		margin: 0px auto;
 		width: 1000px;
 	}
@@ -494,7 +495,7 @@
 	{
 		overflow: hidden;
 		background: #F3F3F3;
-		padding: 230px 0 20px 0;
+		padding: 220px 0 0 0;
 		text-align: center;
 	}
 
