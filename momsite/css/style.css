@@ -9,7 +9,6 @@
 		padding: 0px;
 		background: #16A085;
 		font-family: 'Questrial', sans-serif;
-		font-size: 12pt;
 		color: rgba(0,0,0,.6);
 	}
 	
@@ -308,13 +307,17 @@
 
 	#header-wrapper
 	{
+		position:fixed;
+		width: 100%;
 		overflow: hidden;
 		padding: 2em 0em 15px;
-		background: url(images/bg01.jpg) repeat-x center top;
+		background: #16A085;
+		z-index:100;
 	}
 
 	#header
 	{
+
 	}
 
 /*********************************************************************************/
@@ -491,7 +494,7 @@
 	{
 		overflow: hidden;
 		background: #F3F3F3;
-		padding: 20px 0em;
+		padding: 230px 0 20px 0;
 		text-align: center;
 	}
 
@@ -591,14 +594,16 @@
 	{
 		
 	}
-	#owl-example img{
+	.owl-example-in img{
 	width: 150px;
+	display: block;
+	margin: auto;
 	}
-	#owl-example p{
-	width: 150px;
-	text-align:center;
+	.owl-example-in p{
+	text-align: center;
 	font-size:15px;
 	}
+
 	
 /*********************************************************************************/
 /* Portfolio                                                                     */
